@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🌐 Navigation Bar -->
+  <nav class="navbar">
+    <h1 class="logo">My Website</h1>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="darkModeToggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- 🏠 Header -->
+  <header>
+    <h2>Welcome to My Website 🌐</h2>
+    <p>Now with navigation, dark mode, and a contact form!</p>
+  </header>
+
+  <!-- 🙋 About Section -->
+  <main>
+    <section id="about" class="card">
+      <h3>About Me</h3>
+      <p>Hi! I'm learning how to code and build beautiful, interactive websites from scratch. 🚀</p>
+    </section>
+
+    <!-- ✨ Interactive Section -->
+    <section class="card">
+      <h3>Click the Button!</h3>
+      <button id="magicButton">Click Me ✨</button>
+      <p id="message"></p>
+    </section>
+
+    <!-- 📬 Contact Form -->
+    <section id="contact" class="card">
+      <h3>Contact Me</h3>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="messageBox" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message 💌</button>
+      </form>
+      <p id="formResponse"></p>
+    </section>
+  </main>
+
+  <!-- ⚙️ Footer -->
+  <footer>
+    <p>© 2025 My First Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
